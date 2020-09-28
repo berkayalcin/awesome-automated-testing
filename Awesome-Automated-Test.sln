@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome-Automated-Test", "Awesome-Automated-Test\Awesome-Automated-Test.csproj", "{42F92B71-8EE1-41AC-9BCE-C717599AE214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome-Automated-Test.UnitTests", "Awesome-Automated-Test.UnitTests\Awesome-Automated-Test.UnitTests.csproj", "{04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F92B71-8EE1-41AC-9BCE-C717599AE214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F92B71-8EE1-41AC-9BCE-C717599AE214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F92B71-8EE1-41AC-9BCE-C717599AE214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F92B71-8EE1-41AC-9BCE-C717599AE214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

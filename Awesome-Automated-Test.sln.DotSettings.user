@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=37067af5_002D24e3_002D41ac_002Daec0_002Dcf5fd1fce3c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Add_WhenCalled_ReturnTheSumOfArguments" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC::.NETCoreApp,Version=v3.1::Awesome_Automated_Test.UnitTests.MathTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC::.NETCoreApp,Version=v3.1::Awesome_Automated_Test.UnitTests.HtmlFormatterTests.FormatAsBold_WhenCalled_ShouldEncloseTheStringWithStrongElement&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=529dc838_002D8c9e_002D47f5_002D9b90_002D308e29efe947/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CanBeCancelledBy_UserIsAdmin_ReturnsTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC::.NETCoreApp,Version=v3.1::Awesome_Automated_Test.UnitTests.ReservationTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::04B6EBFA-0D0E-4F24-AF38-50BFCB425EAC::.NETCoreApp,Version=v3.1::Awesome_Automated_Test.UnitTests.MathTests.Add_WhenCalled_ReturnTheSumOfArguments&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
