@@ -16,8 +16,7 @@ For each domain / class under the Fundamentals folder, I have created / will cre
 ## Project Structure
 
  - [Project Under Test](https://github.com/berkayalcin/awesome-automated-testing/tree/master/Awesome-Automated-Test "Awesome-Automated-Test")
-	 - Fundemantals
-	 - Mocking
- - [Awesome-Automated-Test.UnitTests](https://github.com/berkayalcin/awesome
- - -automated-testing/tree/master/Awesome-Automated-Test.UnitTests "Awesome-Automated-Test.UnitTests")
-	 - Tests of each Domain / Class
+ 	- Fundemantals
+ 	- Mocking
+ - [Awesome-Automated-Test.UnitTests](https://github.com/berkayalcin/awesome-automated-testing/tree/master/Awesome-Automated-Test.UnitTests "Awesome-Automated-Test.UnitTests")
+ 	- Tests of each Domain / Class
