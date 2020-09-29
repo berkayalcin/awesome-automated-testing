@@ -19,3 +19,7 @@ For each domain / class under the Fundamentals folder, I have created / will cre
  	- Mocking
  - [Awesome-Automated-Test.UnitTests](https://github.com/berkayalcin/awesome-automated-testing/tree/master/Awesome-Automated-Test.UnitTests "Awesome-Automated-Test.UnitTests")
  	- Tests of each Domain / Class
+  
+## Summary
+
+** If we want to keep our project under control and know how to scale, we must first apply it in our code. **
