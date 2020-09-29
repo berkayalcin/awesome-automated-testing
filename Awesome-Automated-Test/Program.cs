@@ -6,7 +6,7 @@ namespace Awesome_Automated_Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
