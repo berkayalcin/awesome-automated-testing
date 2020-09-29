@@ -1,5 +1,5 @@
 <center><img src="https://teknohisar.com/wp-content/uploads/2020/02/netcore.png" width="400px"
-height="200px">
+height="200px"/>
 <img src="https://cdn2.hubspot.net/hubfs/208250/Blog_Images/nunit1.png" alt="NUnit Automated Testing" height="200px" width="400px"/></center>
 
 ## What Is My Hated Testing Story ?
