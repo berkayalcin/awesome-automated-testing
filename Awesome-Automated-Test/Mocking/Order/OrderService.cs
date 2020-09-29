@@ -1,6 +1,6 @@
 ﻿namespace Awesome_Automated_Test.Mocking.Order
 {
-    public class OrderService
+    public class OrderService : IOrderService
     {
         private readonly IStorage _storage;
 
@@ -12,10 +12,10 @@
         public int PlaceOrder(Order order)
         {
             var orderId = _storage.Store(order);
-            
+
             // Some other work
 
-            return orderId; 
+            return orderId;
         }
     }
 }
