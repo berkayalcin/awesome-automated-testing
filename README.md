@@ -1,4 +1,5 @@
 
+
 <img src="https://cdn2.hubspot.net/hubfs/208250/Blog_Images/nunit1.png" alt="NUnit Automated Testing"/>
 
 ## What Is My Hated Testing Story ?
@@ -22,4 +23,4 @@ For each domain / class under the Fundamentals folder, I have created / will cre
   
 ## Summary
 
-** If we want to keep our project under control and know how to scale, we must first apply it in our code. **
+**If we want to keep our project under control and know how to scale, we must first apply it in our code.**
