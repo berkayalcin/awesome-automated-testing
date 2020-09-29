@@ -1,3 +1,4 @@
+using System;
 using Awesome_Automated_Test.Fundamentals;
 using NUnit.Framework;
 
@@ -29,6 +30,18 @@ namespace Awesome_Automated_Test.UnitTests
         public void Log_WhenCalledWithInvalidMessage_ThrowArgumentNullException(string errorMessage)
         {
             Assert.That(() => _logger.Log(errorMessage), Throws.ArgumentNullException);
+        }
+
+        [Test]
+        [TestCase("Some Errors")]
+        public void Log_ValidError_RaiseErrorLoggedEvent(string errorMessage)
+        {
+            var id = Guid.Empty;
+
+            _logger.ErrorLogged += (sender, guid) => id = guid;
+            _logger.Log(errorMessage);
+
+            Assert.That(id, Is.Not.EqualTo(Guid.Empty));
         }
     }
 }
