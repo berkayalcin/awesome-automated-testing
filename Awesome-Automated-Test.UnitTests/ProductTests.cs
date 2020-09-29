@@ -2,7 +2,7 @@ using Awesome_Automated_Test.Mocking.Customer;
 using Awesome_Automated_Test.Mocking.Product;
 using NUnit.Framework;
 
-namespace Awesome_Automated_Test.UnitTests.MockingTests
+namespace Awesome_Automated_Test.UnitTests
 {
     [TestFixture]
     public class ProductTests

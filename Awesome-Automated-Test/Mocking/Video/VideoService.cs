@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Newtonsoft.Json;
 
 namespace Awesome_Automated_Test.Mocking.Video
@@ -9,10 +8,12 @@ namespace Awesome_Automated_Test.Mocking.Video
     public class VideoService
     {
         private readonly IFileReader _fileReader;
+        private readonly IVideoRepository _videoRepository;
 
-        public VideoService(IFileReader fileReader)
+        public VideoService(IFileReader fileReader, IVideoRepository videoRepository)
         {
             _fileReader = fileReader;
+            _videoRepository = videoRepository;
         }
 
         public string ReadVideoTitle()
@@ -28,11 +29,7 @@ namespace Awesome_Automated_Test.Mocking.Video
         {
             var videoIds = new List<int>();
 
-            using var context = new VideoContext();
-            var videos =
-                (from video in context.Videos
-                    where !video.IsProcessed
-                    select video).ToList();
+            var videos = _videoRepository.GetVideos();
 
             foreach (var v in videos)
                 videoIds.Add(v.Id);

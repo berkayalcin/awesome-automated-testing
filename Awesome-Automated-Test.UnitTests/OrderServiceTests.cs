@@ -3,7 +3,7 @@ using Awesome_Automated_Test.Mocking.Order;
 using Moq;
 using NUnit.Framework;
 
-namespace Awesome_Automated_Test.UnitTests.MockingTests
+namespace Awesome_Automated_Test.UnitTests
 {
     [TestFixture]
     public class OrderServiceTests
